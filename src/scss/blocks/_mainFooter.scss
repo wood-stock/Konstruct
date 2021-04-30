@@ -1,0 +1,27 @@
+.mainFooter {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+    height: 500px;
+    margin-top: 115px;
+    background-image: url("./../img/bgBottom.jpg");
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    background-size: cover;
+    &__text {
+      display: block;
+      width: 350px;
+      padding-top: 120px;
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: 0.15px;
+      color: $gray;
+    }
+    &_button {
+      margin-top: 35px;
+    }
+  }

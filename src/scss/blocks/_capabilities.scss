@@ -1,0 +1,71 @@
+.capabilities{
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 118px;
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__h2{
+        flex-basis: 200px;
+        margin-right: 154px;
+    }
+    &__text{
+        flex-basis: 406px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 19px;
+        letter-spacing: 0.2px;
+        color: $gray;
+    }
+    &__h3{
+        font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.426667px;
+color: $gray;
+    }
+    &__cardText{
+        font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 23px;
+letter-spacing: 0.1875px;
+color:$gray;
+padding-top: 13px;
+    }
+    &__cards{
+        padding-top: 78px;
+    }
+    &__card{
+        padding: 138px 22px 0;
+        flex-basis: 295px;
+        height: 330px;
+        border: 1px solid $lightGray;
+
+    }
+    &__card1{
+        background-image:url('./../img/Bitmap.png');
+        background-repeat:no-repeat;
+        background-position: 23px 38px;
+
+    }
+    &__card2{
+        background-image:url('./../img/Bitmap-2.png');
+        background-repeat:no-repeat;
+        background-position: 23px 38px;
+
+    }
+    &__card3{
+        background-image:url('./../img/Bitmap-3.png');
+        background-repeat:no-repeat;
+        background-position: 23px 38px;
+    }
+
+}

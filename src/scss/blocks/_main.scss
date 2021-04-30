@@ -1,0 +1,39 @@
+.main__h2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: $gray;
+    text-transform: uppercase;
+  }
+  .button {
+    width: 150px;
+    height: 40px;
+    background-color: $blue;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    color: $white;
+    &:hover{
+      transform: scale(1.02);
+      transition: 0.2s;
+      cursor: pointer;
+    }
+  }
+  .line{
+      width: 50px;
+      height:2px;
+      border: 1px solid $blue;
+      margin-top: 10px;
+  }
+  .blue {
+    color: $blue;
+  }

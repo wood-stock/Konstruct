@@ -1,0 +1,19 @@
+@import "libs.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+@import "fonts.scss";
+@import "variables.scss";
+@import "./blocks/header";
+@import "./blocks/topNav";
+@import "./blocks/main";
+@import "./blocks/story";
+@import "./blocks/capabilities";
+@import "./blocks/mainFooter";
+@import "./blocks/footer";
+@import "./media";

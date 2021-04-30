@@ -1,0 +1,118 @@
+.footer {
+    background-color: $black;
+    color: $white;
+    &__wrapper{
+        max-width: 940px;
+        margin: 0 auto;
+    }
+    &__postForm{
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    &__input{
+        width: 250px;
+        height:40px;
+        margin-right: -5px ;
+    }
+    &__postText{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 30px;
+      letter-spacing: 0.846154px;
+    }
+    &__grid{
+        padding-top: 72px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__h3{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 15px;
+      letter-spacing: 0.846154px;
+      color: $white;
+      padding-bottom: 15px;
+    }
+    &__company{
+        flex-basis: 250px;
+    }
+    &__logo{
+        margin-top: 19px;
+    }
+    &__text{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 19px;
+      letter-spacing: 0.85px;
+      color: $white;
+
+    }
+    &__links{
+        flex-basis: 262px;
+    }
+    &__nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    &__navBlok{
+      list-style-type: none;
+      font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.846154px;
+  color: $white;
+
+    li:hover{
+    color:$blue;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+    }
+    &__contactText{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 16px;
+      letter-spacing: 0.846154px;
+      color: $white;
+
+    }
+    &__social{
+        display: flex;
+        flex-wrap: wrap;
+        width: 60px;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 15px;
+          a:hover{
+            transform: scale(1.02);
+        }
+    }
+    &__copyright{
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 15px;
+      text-align: center;
+      letter-spacing: 0.846154px;
+      color: $white;
+      padding-top: 60px;
+      padding-bottom: 23px;
+
+    }
+  }

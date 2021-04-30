@@ -1,0 +1,76 @@
+.story {
+    max-width: 940px;
+    margin: 0 auto;
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 60px;
+
+    }
+    &__h2{
+        padding-top: 58px;
+        text-align: center;
+    }
+    &_line{
+        margin: 10px auto;
+    }
+    &__text {
+      flex-basis: 406px;
+    }
+    &__presentation {
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 460px;
+      justify-content: space-between;
+      height: 244px;
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: 0.1875px;
+      color: $white;
+      margin-top: 25px;
+    }
+    &__mainText {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 27px;
+      color: $gray;
+    }
+    &__simpleText {
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 23px;
+      letter-spacing: 0.1875px;
+      color: $gray;
+      padding-top: 30px;
+      padding-right: 77px;
+    }
+    &__plan{
+        background-image: url('./../img/plan.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        flex-basis: 140px;
+        padding: 15px 14px;
+    }
+    &__manage{
+      background-image: url('./../img/manage.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
+      flex-basis: 140px;
+      padding: 15px 14px;
+  }
+  &__build{
+      background-image: url('./../img/deliver.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
+      flex-basis: 140px;
+      padding: 15px 14px;
+  }
+  }

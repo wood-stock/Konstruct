@@ -1,0 +1,32 @@
+.topNav{
+    max-width: 940px;
+    height:65px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    &__wrapper{
+        border-bottom: 1px solid $lightGray;
+    }
+    &__navigation{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 1.09091px;
+        text-transform: uppercase;
+        color: $gray;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 48px;
+            li:hover{
+                color:$blue;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+
+}
